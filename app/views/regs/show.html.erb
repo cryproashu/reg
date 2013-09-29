@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Fname:</b>
+  <%= @reg.fname %>
+</p>
+
+<p>
+  <b>Lname:</b>
+  <%= @reg.lname %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @reg.email %>
+</p>
+
+<p>
+  <b>Background:</b>
+  <%= @reg.background %>
+</p>
+
+
+<%= link_to 'Edit', edit_reg_path(@reg) %> |
+<%= link_to 'Back', regs_path %>
